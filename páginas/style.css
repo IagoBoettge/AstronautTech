@@ -1,4 +1,5 @@
 * {
+    overflow-x: hidden;
     margin: 0;
     padding: 0;
     font-family: " Brand Variable", Arial, Helvetica, "sans-serif";
@@ -71,12 +72,6 @@ a {
     font-weight: 400;
 }
 
-.login-button button {
-    border: none;
-    padding: 10px 15px;
-    border-radius: 5px;
-    background-color: #0187a7;
-}
 
 .login-button button a {
     text-decoration: none;
@@ -95,27 +90,58 @@ a {
     justify-content: center;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 main {
-    height: 900px;
+ 
     margin-bottom: 20px;
 }
 
+
+
+
+
+
 .intro {
-    text-align: left;
+   
+    
     margin-left: 40px;
     padding-left: 10px;
 
 
 }
 
+
 .intro h1 {
+    font-size: 2vw;
     margin-bottom: 20px;
 }
 
 .intro p {
+    font-size: 1.3vw;
     margin-bottom: 10px;
 
 }
+
+
+
+
+
+
 
 .introducao img {
     max-width: 23%;
@@ -126,15 +152,123 @@ main {
 
 .introducao {
     display: flex;
-
     justify-content: space-around;
+    margin-bottom: 200px;
 
 }
+
+
+
+
+
 
 .btn{
+    margin-top: 50px;
     display: flex;
-    justify-content: center;
+    justify-content:space-evenly;
+    
+    
 }
+
+.btn-a{
+    background-color:#2ab48f;;
+    color: #fff;
+    border-radius: 30px;
+}
+.ancora p{
+    padding: 15px 10px 10px 10px;
+   
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 150px;
+    background-color:#2ab48f;
+    color: #fff;
+
+    box-shadow: 0px 2px 5px #494848;
+  
+    
+}
+
+.container img{
+    max-width: 23%;
+}
+
+.itens h1{
+    text-align:center;
+    font-size: 2.1vw;
+    margin: 50px;
+ 
+
+}
+
+.itens p {
+    
+    font-size: 1.3vw;
+    margin: 45px;
+
+}
+
+
+.vantagens{
+    margin-bottom: 150px;
+}
+
+.vantagens h1{
+    font-size: 2.1vw;
+    text-align: center;
+    margin: 40px 0px 90px 0px;
+}
+
+.vantagens-p{
+    display: flex;
+    flex-flow:row;
+    justify-content: space-around;
+    
+   
+}
+
+.vantagens-p p{
+    text-align: center;
+    font-size: 1.3vw;
+    margin-left: 50px;
+   
+}
+.vantagens-img{
+    display: flex;
+    justify-content: space-around;
+ 
+}
+.vantagens-img img{
+    margin-top: 40px;
+    max-width: 20%;
+}
+
+
+
+
+
+
+
 
 
 
