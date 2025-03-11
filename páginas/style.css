@@ -127,12 +127,12 @@ main {
 
 
 .intro h1 {
-    font-size: 2vw;
+    font-size: max(30px,2vw);
     margin-bottom: 20px;
 }
 
 .intro p {
-    font-size: 1.3vw;
+    font-size: max(15px,1vw);
     margin-bottom: 10px;
 
 }
@@ -165,6 +165,7 @@ main {
 .btn{
     margin-top: 50px;
     display: flex;
+    flex-flow: row wrap;
     justify-content:space-evenly;
     
     
@@ -174,9 +175,10 @@ main {
     background-color:#2ab48f;;
     color: #fff;
     border-radius: 30px;
+    margin: 10px;
 }
 .ancora p{
-    padding: 15px 10px 10px 10px;
+    padding: 10px
    
  
 }
@@ -215,7 +217,7 @@ main {
 
 .itens h1{
     text-align:center;
-    font-size: 2.1vw;
+    font-size: max(30px,2vw);
     margin: 50px;
  
 
@@ -223,7 +225,7 @@ main {
 
 .itens p {
     
-    font-size: 1.3vw;
+    font-size: max(15px,1.5vw);
     margin: 45px;
 
 }
@@ -234,24 +236,23 @@ main {
 }
 
 .vantagens h1{
-    font-size: 2.1vw;
+    font-size: max(30px,2vw);
     text-align: center;
-    margin: 40px 0px 90px 0px;
+    margin: 15px 0px 90px 0px;
 }
 
 .vantagens-p{
     display: flex;
     flex-flow:row;
-    justify-content: space-around;
+    justify-content: space-evenly;
     
    
 }
 
 .vantagens-p p{
     text-align: center;
-    font-size: 1.3vw;
-    margin-left: 50px;
-   
+   font-size: max(15px,1vw);
+   padding: 2px;
 }
 .vantagens-img{
     display: flex;
@@ -260,7 +261,7 @@ main {
 }
 .vantagens-img img{
     margin-top: 40px;
-    max-width: 20%;
+    max-width: 26%;
 }
 
 
