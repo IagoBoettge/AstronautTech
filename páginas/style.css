@@ -106,6 +106,15 @@ a {
 
 
 
+
+
+
+
+
+
+
+
+
 main {
  
     margin-bottom: 20px;
@@ -144,7 +153,8 @@ main {
 
 
 .introducao img {
-    max-width: 23%;
+    margin-top: 60px;
+    width: max(35%, 300px);
 
 
 
@@ -152,6 +162,7 @@ main {
 
 .introducao {
     display: flex;
+    flex-flow: wrap;
     justify-content: space-around;
     margin-bottom: 200px;
 
@@ -171,12 +182,21 @@ main {
     
 }
 
+
 .btn-a{
     background-color:#2ab48f;;
     color: #fff;
     border-radius: 30px;
     margin: 10px;
 }
+
+.btn-a-y{
+    background-color:#eebf34;;;
+    color: #fff;
+    border-radius: 30px;
+    margin: 10px;}
+
+
 .ancora p{
     padding: 10px
    
@@ -198,7 +218,7 @@ main {
 
 
 
-
+<!--
 .container{
     display: flex;
     justify-content: space-around;
@@ -210,10 +230,23 @@ main {
   
     
 }
+.container-y{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 150px;
+    background-color:#eebf34;
+    color: #fff;
+
+    box-shadow: 0px 2px 5px #494848;
+  
+    
+}
 
 .container img{
     max-width: 23%;
 }
+
+
 
 .itens h1{
     text-align:center;
@@ -225,8 +258,8 @@ main {
 
 .itens p {
     
-    font-size: max(15px,1.5vw);
-    margin: 45px;
+    font-size: max(17px,1.7vw);
+    margin: 50px;
 
 }
 
@@ -251,7 +284,7 @@ main {
 
 .vantagens-p p{
     text-align: center;
-   font-size: max(15px,1vw);
+   font-size: max(15px,1.2vw);
    padding: 2px;
 }
 .vantagens-img{
@@ -263,6 +296,27 @@ main {
     margin-top: 40px;
     max-width: 26%;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
